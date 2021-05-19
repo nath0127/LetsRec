@@ -1,0 +1,42 @@
+{
+  "name": "letsrec",
+  "version": "1.0.0",
+  "description": "recreational sports",
+  "main": "index.js",
+  "scripts": {
+    "react-dev": "webpack --config ./webpack.config.js --mode development -w",
+    "start": "nodemon ./server/index.js",
+    "createdb": "mysql -u root -p < ./database/schema.sql"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nath0127/LetsRec.git"
+  },
+  "author": "Nathaniel Fung",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nath0127/LetsRec/issues"
+  },
+  "homepage": "https://github.com/nath0127/LetsRec#readme",
+  "dependencies": {
+    "@babel/preset-react": "^7.13.13",
+    "axios": "^0.21.1",
+    "babel": "^6.23.0",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "morgan": "^1.10.0",
+    "mysql": "^2.18.1",
+    "nodemon": "^2.0.7",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "webpack-cli": "^4.7.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.14.3",
+    "@babel/core": "^7.14.3",
+    "@babel/preset-env": "^7.14.2",
+    "babel-loader": "^8.2.2",
+    "webpack": "^5.37.0"
+  }
+}
